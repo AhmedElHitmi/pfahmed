@@ -9,7 +9,7 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="icon" href="favicon.ico">
-
+        <script src="https://use.fontawesome.com/d05e79cef4.js"></script>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
@@ -39,40 +39,59 @@
 
 <!--************************header ****************************************  -->
 
-    <section>
-      <article class="msg">
-        <form class="form_request" action="index.html" method="post">
-          <fieldset class="coord">
-            <legend>Vos coordonnées</legend>
-          <p>
-            <label for="text"> Nom :   </label>
-            <input type="text" name="nom" size="30" value="">
-          </p>
-    ​
-          <p>
-            <label for="text"> Prénom: </label>
-            <input type="text" name="prenom" size="30" value="">
-          </p>
-    ​
-          <p>
-            <label for="text"> Email:  </label>
-            <input type="email" name="mail" size="30" value="">
-          </p>
-    ​
-          <p>
-            <label for="comment"> Commentaire: </label>
-            <textarea name="com" rows="8" cols="40"></textarea>
-          </p>
-    ​
-          <p>
-            <input type="button" name="envoy" value="Envoyer" class="envoy">
-          </p>
+<div class="container">
+  <div class="row">
+      <div class="col-md-12">
+          <div class="well well-sm">
+              <form class="form-horizontal" method="post">
+                  <fieldset>
+                      <legend class="text-center header">Contactez moi</legend>
 
-          </fieldset>
-        </form>
-      </article>
+                      <div class="form-group">
+                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                          <div class="col-md-8">
+                              <input id="fname" name="name" type="text" placeholder="Nom" class="form-control">
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                          <div class="col-md-8">
+                              <input id="lname" name="name" type="text" placeholder="Prénom" class="form-control">
+                          </div>
+                      </div>
 
-    </section>
+                      <div class="form-group">
+                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                          <div class="col-md-8">
+                              <input id="email" name="email" type="text" placeholder="Addresse Email" class="form-control">
+                          </div>
+                      </div>
+
+                      <div class="form-group">
+                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                          <div class="col-md-8">
+                              <input id="phone" name="phone" type="text" placeholder="Téléphone" class="form-control">
+                          </div>
+                      </div>
+
+                      <div class="form-group">
+                          <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                          <div class="col-md-8">
+                              <textarea class="form-control" id="message" name="message" placeholder="Entrez votre message ici." rows="7"></textarea>
+                          </div>
+                      </div>
+
+                      <div class="form-group">
+                          <div class="col-md-12 text-center">
+                              <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                          </div>
+                      </div>
+                  </fieldset>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
 
     <footer><p>Ahmed EL HITMI</p></footer>
 
