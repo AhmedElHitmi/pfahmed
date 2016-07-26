@@ -1,3 +1,7 @@
+*{
+font-family: 'ABeeZee', sans-serif;
+}
+
 h1{
   text-align: center;
 }
@@ -8,12 +12,25 @@ h2{
 header{
   margin-top: 10px;
 }
+
+/*.jumbotron{
+  background-color:#000;
+  text-align: center;
+  color:#fff;
+
+}*/
+
+.jumbotron p{
+text-align: center;
+margin:auto 15%;
+}
+
 .container{
   margin-top: 60px;
 }
 
 .progressbar{
-  margin: auto 10%;
+  margin: auto 30%;
 }
 .formulaire{
   text-align: center;
