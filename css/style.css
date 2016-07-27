@@ -3,7 +3,23 @@ font-family: 'ABeeZee', sans-serif;
 }
 
 h1{
+  display: inline-block;
   text-align: center;
+}
+u {
+  margin-left: 40px;;
+}
+
+
+
+#jumbo {
+  background-color: white;
+  height: 16px;
+}
+
+.tit{
+  width: 100%;
+  margin-left: 35px;
 }
 
 h2{
@@ -13,7 +29,10 @@ header{
   margin-top: 10px;
 }
 
-
+img {
+  display: inline-block;
+  border-radius: 15px;
+}
 /*.jumbotron{
   background-color:#000;
   text-align: center;
@@ -21,13 +40,13 @@ header{
 
 }*/
 
-.jumbotron p{
+.jumbotron {
 text-align: center;
-margin:auto 15%;
+
 }
 
 .jumbotron h1{
-margin-bottom: 45px;
+margin : 25px 0 45px 20px;
 }
 
 
@@ -37,7 +56,8 @@ margin-bottom: 45px;
 }
 
 .progressbar{
-  margin: auto 30%;
+  /*margin: auto 30%;*/
+  margin :2% 50% 0 0;
 }
 .formulaire{
   text-align: center;
@@ -51,7 +71,7 @@ margin-bottom: 45px;
        padding: 10px;
    }
 
-   .bigicon {
+.bigicon {
        font-size: 35px;
        color: #36A0FF;
    }
